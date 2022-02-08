@@ -1,0 +1,25 @@
+.bg-grey-dark2 {background-color: #333333; }
+.header-text-large { font-size: 2.8em !important; }
+.calc-formula { font-size: 2.2em !important; font-weight: bold; color: #007fac !important;}
+.conversionFormula{ margin: 15px;}
+.table{min-width:0px !important;}
+#lineChart { 
+        width: 550px; 
+        height: 400px;
+        margin: 15px; 
+}
+@media only screen and (max-width: 600px) {
+    .conversionFormula{ 
+        margin: auto; 
+        /* transform: scale(.9); */
+        /*width: 90%;*/
+        margin: 0 15px 15px;
+    }
+    #lineChart { 
+        margin: auto;
+        width: 95%;
+        height: 250px;
+        display: inline-block;
+    }
+    
+}

@@ -1,0 +1,58 @@
+
+
+    .bg-grey-dark2 {background-color: #333333; }
+    .header-text-large { font-size: 2.8em !important; }
+    .calc-formula { font-size: 2.2em !important; font-weight: bold; color: #007fac !important;}
+    .headerCol { font-weight: bold !important; font-size:16px !important;}
+    .form-force-width {  height:350px; font-size:16px; overflow:scroll;}.bg-grey-light{padding-bottom:7%;} 
+     th {background: #fff !important; position: sticky; top: 0;}
+    .table{min-width:750px !important;}
+    .dividerSymbol{font-size: large; }
+    .equalSymbol{font-size: large; padding: 24px 0 0; max-width: 12px;}
+    .denominatorDiv{padding-top: 21px;}
+    @media (max-width: 768px) {
+        .equalSymbol{
+            display: none;
+        }
+    }
+    @media (max-width: 768px) {
+        .dividerSymbol{
+            font-size: large; 
+            margin-left: 40%;
+            padding: 0px;max-width: 6px;
+        }
+        .WNumber{
+            margin-top: 30px;
+            width:145px;
+        }
+        .FDeciaml {
+            width:50% !important;
+        }
+        .FDeciaml .form-group{
+            margin-bottom: 0px !important;
+        }
+        .numeratorDiv{ 
+            width:100% !important;
+        }
+        .denominatorDiv{
+            width:100% !important;
+            padding-top: 0px !important;
+        }
+    }
+    @media (min-width: 671px) and (max-width:991px) {
+        .dividerSymbol{    
+            margin-right: -81px;
+            padding: 24px 70px 0px;
+        }    
+    }
+    @media (min-width: 992px) and (max-width:1050px) {
+        .dividerSymbol{
+        padding : 24px 29px 19px 50px;
+        }    
+    }
+    @media (min-width: 1050px) {
+        .dividerSymbol{
+            padding : 24px 0 0;
+            max-width: 6px;
+        }   
+    }
